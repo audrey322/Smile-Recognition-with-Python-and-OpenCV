@@ -56,6 +56,9 @@ void loop() {
 # Starter Project
 My starter project was the custom arduino project, where you can add your own input and output. My input was the PIR Motion Sensor and my output was the LED. First I wired up the arduino to the sensor and then uploaded the code. The program first identifies the input, and led pins and then contsntly detects if there is motion infront of the sensor. then it will light up the led accordingly and print a "Motion Detected", "Motion ended" on the serial moniter. After I got all parts to work I soldered on the proto shield and capacitors, restrictors,leds, and buttons, and then replicated the wiring on the proto shield. Overall this project was a fun wiring and soldering project and I had fun. 
 
+![Code Image](starter_code.png)
+![Wiring Image](starter_wiring.HEIC)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FgX3ZWk1tlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Additional Info
