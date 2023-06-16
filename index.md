@@ -16,19 +16,17 @@ For your final milestone, explain the outcome of your project. Key details to in
 - What your biggest challenges and triumphs were at BSE
 - A summary of key topics you learned about
 - What you hope to learn in the future after everything you've learned at BSE
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uia_CRZ00F8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 # Second Milestone
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+For my second milestone I added a new message for not smiling text and made them red and green for when you are smiling or when you aren't. I also finished my eye detention program that's separate. I also finished coding my eye detction program. The second time it was a lot simpler to code eye detection because it was a lot of the same things, for example cropping down the face and converting it to grayscale. However it was interesting to figure out the dimensions for eyes because it took a lot of trial and error to find the right placement of the eye squares on the interface. Later in the demo you will see that there is the same square around the face and this time there are also two squares around the eyes that show that the program is working and it knows where your eyes are. This time I also used an eye cascade and  a face cascade like I did for my smile detection. 
+
+Next I would like to learn how to make my own cascade and train it to recognize smiling eyes and then connect that with my original program to make it more accurate to see if you are truly smiling or not and in the future some possible modifications include connecting the program to a handheld device integrating an Arduino and Led. Overall I learned alot in this milestone and gained deeper understainding about how image and object detection works becuase I had to essentially recreate my first program but the target object was eyes. 
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ?>
--->
+
 # First Milestone
 My project is the smile recognition with Python and openCV. This program uses two haarcascades, one to recognize the users face and the other one to recognize if the user is similing or not. These Haarcascades are made up with large amouts of data to pre-train the program. The program crops the users face down to the dimentions like that in the haarcascades and then coverts it into greyscale to again, be similar to the examples. One of the things that took me the longest time to resolve was trying to figure out what to dowlonad. I needed numpy and opencv for this program but and to download an intaller first. The internet told me to download pip but it wasnt compatable with my computer so I ended up dowloading homebrew. After this I had to dowload the newest version of python becuase they still weren't compatable with my computer. In the end, I got my program working. 
 
