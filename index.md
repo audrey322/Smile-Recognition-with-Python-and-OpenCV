@@ -19,23 +19,22 @@ For your final milestone, explain the outcome of your project. Key details to in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Uia_CRZ00F8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 -->
 # Second Milestone
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Uia_CRZ00F8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 For my second milestone I added a new message for not smiling text and made them red and green for when you are smiling or when you aren't. I also finished my eye detention program that's separate. I also finished coding my eye detction program. The second time it was a lot simpler to code eye detection because it was a lot of the same things, for example cropping down the face and converting it to grayscale. However it was interesting to figure out the dimensions for eyes because it took a lot of trial and error to find the right placement of the eye squares on the interface. Later in the demo you will see that there is the same square around the face and this time there are also two squares around the eyes that show that the program is working and it knows where your eyes are. This time I also used an eye cascade and  a face cascade like I did for my smile detection. 
 
 Next I would like to learn how to make my own cascade and train it to recognize smiling eyes and then connect that with my original program to make it more accurate to see if you are truly smiling or not and in the future some possible modifications include connecting the program to a handheld device integrating an Arduino and Led. Overall I learned alot in this milestone and gained deeper understainding about how image and object detection works becuase I had to essentially recreate my first program but the target object was eyes. 
 
 ![Smile Image](eye_detection.png)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Uia_CRZ00F8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 # First Milestone
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8-t_CaiJ4nM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 My project is the smile recognition with Python and openCV. This program uses two haarcascades, one to recognize the users face and the other one to recognize if the user is similing or not. These Haarcascades are made up with large amouts of data to pre-train the program. The program crops the users face down to the dimentions like that in the haarcascades and then coverts it into greyscale to again, be similar to the examples. One of the things that took me the longest time to resolve was trying to figure out what to dowlonad. I needed numpy and opencv for this program but and to download an intaller first. The internet told me to download pip but it wasnt compatable with my computer so I ended up dowloading homebrew. After this I had to dowload the newest version of python becuase they still weren't compatable with my computer. In the end, I got my program working. 
 
 Next I would like to make it more efficient and clear to the user whether they are smiling or not. For example as of now it only shows text if you are smiling, I would like to add a not smiling text in red while the smiling text is green. Additionally I would like to play around with the certain values to see if I can get it to be more accurate. In the future I would also like to add some way to use eyes to make it more accurate. For example a real smile is when your eyes also crinkle. I think it would be a cool idea to also input that into the program. 
 
 ![Smile Image](smile_detection.png)
-
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8-t_CaiJ4nM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <!-- # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
@@ -57,12 +56,12 @@ void loop() {
 ```
 -->
 # Starter Project
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FgX3ZWk1tlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 My starter project was the custom arduino project, where you can add your own input and output. My input was the PIR Motion Sensor and my output was the LED. First I wired up the arduino to the sensor and then uploaded the code. The program first identifies the input, and led pins and then contsntly detects if there is motion infront of the sensor. then it will light up the led accordingly and print a "Motion Detected", "Motion ended" on the serial moniter. After I got all parts to work I soldered on the proto shield and capacitors, restrictors,leds, and buttons, and then replicated the wiring on the proto shield. Overall this project was a fun wiring and soldering project and I had fun. 
 
 ![Code Image](starter_code.png)
 ![Wiring Image](wiring_pic.jpg)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FgX3ZWk1tlU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 # Additional Info
 A cascade is  a large data library with thousands of samples and it pre trains the program to recognize those things. All examples are cropped to a certain size and also converted into grayscale. The program recognizes the positives as the target and the negatives as things that are not what we want to detect. Through this milestone I also learned a lot about the functions of haarcascades and how to make them, as well as ways you can use them and how to use them in a program. I also did some research on how OpenCV is integrated in the whole thing. OpenCV takes the face and the example that is grayscale and cropped town to a certain size and then converts it into one big array with rgb values.  
