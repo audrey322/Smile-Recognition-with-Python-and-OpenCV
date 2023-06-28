@@ -11,7 +11,9 @@
  # Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hGSi-kFk8uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-The first decision I made for this project was just to focus on making an iot device from the code that I already had and not adding a smiling eye because I had to make my own haar cascade and I didnt have the proper resources for that. I got my raspberry pi and then  because my computer doesn't have a monitor I downloaded OBS. After this I downloaded VScode and transferred my code to my monitor instead of the VScode app on my desktop. After that I downloaded opencv. This is where I ran into one of the biggest errors in this project. Opencv took 1.5-2 hours to download and I kept running into errors like there wasn't the wheels or a pep 517 error. It took about 7-8 tries and failed downloads to finally get it downloaded after I updated all my software. After this, I connected my pi camera to my raspberry pi and got it connected through the command line. The last step was altering my code to actually call the pi camera instead of the one already on my desktop. My next step is to work on my CAD design case for my raspberry pi and install an led onto my raspberry pi so that it will light up when the smile is detected. 
+The first decision I made for my third milestone was just to focus on making an iot device from the code that I already had and not adding a smiling eye detection program to it because I had to make my own Haarcascade and I didnt have the proper resources for that. There were three different ways you could make a Haarcascade, downloading sample images off of the internet, using a webcam to take pictures myself, or going on imageNet and then finding negatie objects as well and then training it. I didn't have a camera, and image net wasnt working. I also downloaded an extention to download images off of the internet but because of all the copyrighted images it didnt give me the best results and the pictures were not useful to my target object. 
+
+I got my Raspberry Pi and then becuase my computer didn't have a monitor I downloaded OBS. After this I downloaded VScode and transferred my code to my monitor instead of the VScode app on my desktop. After that I downloaded opencv and numpy. This is where I ran into one of the biggest errors in this project. Opencv took 1.5-2 hours to download and I kept running into errors like there wasn't the wheels or a pep 517 error. This happened becuase the version of OpenCV I was trying to downoad wasnt compatable with my version of python, and the wifi was also making it very slow. It took about 7-8 tries and failed downloads to finally get it downloaded after I updated all my software. After this, I connected my pi camera to my raspberry pi and got it connected to my computer through the command line. The last step was altering my code to actually call the pi camera instead of the one already on my desktop. My next step is to work on my CAD design case for my raspberry pi and install an led onto my raspberry pi so that it will light up when the smile is detected. 
 
 # Second Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Uia_CRZ00F8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -61,13 +63,14 @@ My starter project was the custom arduino project, where you can add your own in
 # Additional Info
 A cascade is  a large data library with thousands of samples and it pre trains the program to recognize those things. All examples are cropped to a certain size and also converted into grayscale. The program recognizes the positives as the target and the negatives as things that are not what we want to detect. Through this milestone I also learned a lot about the functions of haarcascades and how to make them, as well as ways you can use them and how to use them in a program. I also did some research on how OpenCV is integrated in the whole thing. OpenCV takes the face and the example that is grayscale and cropped town to a certain size and then converts it into one big array with rgb values.  
 
-<!-- # Bill of Materials
+ # Bill of Materials
+ 
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+|  | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
@@ -80,4 +83,4 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
-To watch the BSE tutorial on how to create a portfolio, click here. -->
+To watch the BSE tutorial on how to create a portfolio, click here. 
