@@ -1,10 +1,10 @@
 # Smile Recognition with Python
 
-<!-- Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails! -->
+Bringing smiles to life through an program coded with OpenCV and Python! Using two Haar Cascades, one for smiles and the other for frontal face detection, this project combines a variety of skils to make an IoT smile detection device. With the rasberry pi and pi cam, you can create a handheld device with a CAD case to detect smiles instead of using your computer camera!
 
 | **Engineer** | **School** | **Areas of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| Audrey Z | Lynbrook High School | Electrical Engineering | Incoming Sophmore
+| Audrey Z | Lynbrook High School | Electrical Engineering | Incoming Sophomore
 
 ![Headstone Image](0.jpg)
 
@@ -64,23 +64,21 @@ My starter project was the custom arduino project, where you can add your own in
 A cascade is  a large data library with thousands of samples and it pre trains the program to recognize those things. All examples are cropped to a certain size and also converted into grayscale. The program recognizes the positives as the target and the negatives as things that are not what we want to detect. Through this milestone I also learned a lot about the functions of haarcascades and how to make them, as well as ways you can use them and how to use them in a program. I also did some research on how OpenCV is integrated in the whole thing. OpenCV takes the face and the example that is grayscale and cropped town to a certain size and then converts it into one big array with rgb values.  
 
  # Bill of Materials
- 
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
+| Rasberry Pi 4 Kit | Making Iot Device | $124.95 | <a href="https://www.pishop.us/product/raspberry-pi-4b-starter-kit-pro/"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Pi Cam Module 3 | Camera for Program | $25.00 | <a href="https://www.pishop.us/product/raspberry-pi-camera-module-3/"> Link </a> |
+|:--:|:--:|:--:|:--:|
 |  | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-|:--:|:--:|:--:|:--:|
 
-# Other Resources/Examples
+<!-- # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
 - [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
 - [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here. 
+--> 
