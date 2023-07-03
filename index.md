@@ -8,7 +8,7 @@ Bringing smiles to life through an program coded with OpenCV and Python! Using t
 
 ![Headstone Image](0.jpg)
 
- # Final Milestone
+# Final Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/hGSi-kFk8uw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 The first decision I made for my third milestone was just to focus on making an iot device from the code that I already had and not adding a smiling eye detection program to it because I had to make my own Haarcascade and I didnt have the proper resources for that. There were three different ways you could make a Haarcascade, downloading sample images off of the internet, using a webcam to take pictures myself, or going on imageNet and then finding negatie objects as well and then training it. I didn't have a camera, and image net wasnt working. I also downloaded an extention to download images off of the internet but because of all the copyrighted images it didnt give me the best results and the pictures were not useful to my target object. 
@@ -62,8 +62,7 @@ My starter project was the custom arduino project, where you can add your own in
 
 # Additional Info
 A cascade is  a large data library with thousands of samples and it pre trains the program to recognize those things. All examples are cropped to a certain size and also converted into grayscale. The program recognizes the positives as the target and the negatives as things that are not what we want to detect. Through this milestone I also learned a lot about the functions of haarcascades and how to make them, as well as ways you can use them and how to use them in a program. I also did some research on how OpenCV is integrated in the whole thing. OpenCV takes the face and the example that is grayscale and cropped town to a certain size and then converts it into one big array with rgb values.  
-
- # Bill of Materials
+# Bill of Materials
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
@@ -71,7 +70,9 @@ A cascade is  a large data library with thousands of samples and it pre trains t
 |:--:|:--:|:--:|:--:|
 | Pi Cam Module 3 | Camera for Program | $25.00 | <a href="https://www.pishop.us/product/raspberry-pi-camera-module-3/"> Link </a> |
 |:--:|:--:|:--:|:--:|
-|  | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Led | Show if the user is smiling or not | $7.59 | <a href="https://www.amazon.com/eBoot-Pieces-Emitting-Diodes-Assorted/dp/B06XPV4CSH/ref=asc_df_B06XPV4CSH/?tag=hyprod-20&linkCode=df0&hvadid=167146990738&hvpos=&hvnetw=g&hvrand=10448453497776440873&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032131&hvtargid=pla-369941417757&psc=1"> Link </a> |
+|:--:|:--:|:--:|:--:|
+| Rasberry Pi 4 Kit | Making Iot Device | $124.95 | <a href="https://www.pishop.us/product/raspberry-pi-4b-starter-kit-pro/"> Link </a> |
 |:--:|:--:|:--:|:--:|
 
 <!-- # Other Resources/Examples
