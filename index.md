@@ -72,7 +72,7 @@ A cascade is  a large data library with thousands of samples and it pre trains t
 |:--:|:--:|:--:|:--:|
 | Led | Show if the user is smiling or not | $7.59 | <a href="https://www.amazon.com/eBoot-Pieces-Emitting-Diodes-Assorted/dp/B06XPV4CSH/ref=asc_df_B06XPV4CSH/?tag=hyprod-20&linkCode=df0&hvadid=167146990738&hvpos=&hvnetw=g&hvrand=10448453497776440873&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9032131&hvtargid=pla-369941417757&psc=1"> Link </a> |
 |:--:|:--:|:--:|:--:|
-| Rasberry Pi 4 Kit | Making Iot Device | $124.95 | <a href="https://www.pishop.us/product/raspberry-pi-4b-starter-kit-pro/"> Link </a> |
+| 330 Ohm Resistor | Wiring for the Led | $0.11 | <a href="https://www.mouser.com/ProductDetail/YAGEO/CFR-50JR-52-330Rqs=19cKSROHwrCn5mlDH3KUrg%3D%3D&mgh=1&gclid=CjwKCAjw44mlBhAQEiwAqP3eVizGlnXLQSKes5sTsiRPi_mnYsQ8tNg0DEcXeo22xNhL4FCYS8fCeBoCPtcQAvD_BwE"> Link </a> |
 |:--:|:--:|:--:|:--:|
 
 <!-- # Other Resources/Examples
