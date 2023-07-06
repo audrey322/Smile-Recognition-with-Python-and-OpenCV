@@ -15,6 +15,9 @@ The first decision I made for my third milestone was just to focus on making an 
 
 I got my Raspberry Pi and then becuase my computer didn't have a monitor I downloaded OBS. After this I downloaded VScode and transferred my code to my monitor instead of the VScode app on my desktop. After that I downloaded opencv and numpy. This is where I ran into one of the biggest errors in this project. Opencv took 1.5-2 hours to download and I kept running into errors like there wasn't the wheels or a pep 517 error. This happened becuase the version of OpenCV I was trying to downoad wasnt compatable with my version of python, and the wifi was also making it very slow. It took about 7-8 tries and failed downloads to finally get it downloaded after I updated all my software. After this, I connected my pi camera to my raspberry pi and got it connected to my computer through the command line. The last step was altering my code to actually call the pi camera instead of the one already on my desktop. My next step is to work on my CAD design case for my raspberry pi and install an led onto my raspberry pi so that it will light up when the smile is detected. 
 
+![CAD Image](cadcase.png)
+
+
 # Second Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Uia_CRZ00F8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
