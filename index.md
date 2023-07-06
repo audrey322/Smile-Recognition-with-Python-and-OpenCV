@@ -17,6 +17,8 @@ I got my Raspberry Pi and then becuase my computer didn't have a monitor I downl
 
 ![CAD Image](cadcase.png)
 
+![CAD2 Image](cadcase2.png)
+
 
 # Second Milestone
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Uia_CRZ00F8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
